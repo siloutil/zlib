@@ -1,7 +1,7 @@
 # zlib
 ## Comments for siloutil
 - A copy of the zlib source, version 1.2.11 for compatibility and reference
-- We need zlib.a to build the hdf5 and silo libraries.
+- We need zlib.a to build the hdf5 and silo libraries, it is linked in the final building of siloutil
 
 ### Prerequisites
 - A C89 or subsequent compliant compiler
@@ -9,6 +9,7 @@
 ### Building
 - `./configure --static`
 - `make all`
+- The zlib.a library is in the root directory
 
 ### Updating
 - Look for new versions on [github](https://github.com/madler/zlib) or zlib's [webpage](https://www.zlib.net/)
