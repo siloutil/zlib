@@ -11,7 +11,7 @@
 - `make all`
 
 ### Updating
-- Look for new versions on [https://github.com/madler/zlib github] or zlib's [https://www.zlib.net/ webpage]
+- Look for new versions on [github](https://github.com/madler/zlib) or zlib's [webpage](https://www.zlib.net/)
 - Build zlib and run `make test` to verify the integrity of the library itself
 - Rebuild dependent libraries and run their respective tests
 - Rebuild siloutil and run its unit tests
