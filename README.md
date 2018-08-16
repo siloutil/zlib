@@ -10,7 +10,7 @@
 - `./configure --static`
 - `make all`
 - The zlib.a library is in the root directory
-- test with `make test`
+- Test with `make test`
 
 ### Updating
 - Look for new versions on [github](https://github.com/madler/zlib) or zlib's [webpage](https://www.zlib.net/)
