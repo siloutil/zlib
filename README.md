@@ -1,25 +1,7 @@
 # zlib
-## Comments for siloutil
-- A copy of the zlib source, version 1.2.11 for compatibility and reference
-- We need zlib.a to build the hdf5 and silo libraries, it is linked in the final building of siloutil
+A copy of the zlib source, version 1.2.11 for compatibility and reference ## Original README
 
-### Prerequisites
-- A C89 or subsequent compliant compiler
-
-### Building
-- `./configure --static`
-- `make all`
-- The zlib.a library is in the root directory
-- Test with `make test`
-
-### Updating
-- Look for new versions on [github](https://github.com/madler/zlib) or zlib's [webpage](https://www.zlib.net/)
-- Build zlib and run `make test` to verify the integrity of the library itself
-- Rebuild dependent libraries and run their respective tests
-- Rebuild siloutil and run its unit tests
-
-## Original README
-
+# Original README
 ZLIB DATA COMPRESSION LIBRARY
 
 zlib 1.2.11 is a general purpose data compression library.  All the code is
